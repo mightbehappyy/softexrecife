@@ -1,0 +1,1 @@
+Em cada fileira alternadamente há 4 alunos de uma disciplina, quando houve a troca o padrão foi quebrado
