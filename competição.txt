@@ -1,0 +1,7 @@
+
+
+Química          Física           Matemática
+Socrates        Aristóteles         Platão  
+Platão          Platão              Aristóteles
+Aristóteles     Socrates            Socrates                
+		
