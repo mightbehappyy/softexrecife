@@ -1,0 +1,5 @@
+Nome <-  "José Almeida da Silva" tipo caracter 
+CPF <- 12345678900 tipo inteiro
+RG <- 9517530 tipo inteiro
+Altura <- 1,78 tipo tipo real 
+Endereço <- Rua A, 380- Centro- Recife/PE tipo caracter 
