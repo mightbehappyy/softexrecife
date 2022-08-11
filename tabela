@@ -1,0 +1,10 @@
+from xml.dom.minidom import Notation
+import pandas as pd
+banco_de_dados = pd.read_csv("listadealunos.csv", delimiter=";", index_col=0)
+
+aprovados  = 0
+
+for nota in banco_de_dados.itertuples():
+    if nota [1] > 7.0:
+        aprovados += 1
+print(f"O número de aprovados foi {aprovados}")
