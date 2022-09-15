@@ -74,7 +74,7 @@ def aquatico():
                         print("Então seu veiculo é uma lancha")
 
 def principal():
-    print("Pense em um dos seguintes transportes, o programa Simvai advinhar em que transporte você está pensando")
+    print("Pense em um dos seguintes transportes, o programa vai adivinhar em que transporte você está pensando")
     print("-Trator\n"
 "-Moto.\n"
 "-Bicicleta \n" 
