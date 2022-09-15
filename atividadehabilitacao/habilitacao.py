@@ -14,3 +14,6 @@ if rodas >= 4 :
         print("Habilitação tipo D")
     elif peso > 8000:
         print("Habilitação tipo E")
+else:
+    print("Veículo inválido")
+    
