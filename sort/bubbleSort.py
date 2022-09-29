@@ -1,5 +1,5 @@
 from random import randint
-lista = [randint(0,20),randint(0,20),randint(0,20),randint(0,20),randint(0,20),]
+lista = [randint(0,20),randint(0,20),randint(0,20),randint(0,20),randint(0,20)]
 print("="*10)
 print("Lista desorganizada")
 print(lista)
