@@ -1,0 +1,5 @@
+A teoria dos grafos é utilizada em diversos campos da matemática , informática, engenharia, etc. O primeiro estudo relacionado a grafos data em 1736 na resolução
+do problema das setes pontes de Königsberg. O problema consistia na dúvida  dos habitantes se era ou não possível passar por todas as sete pontes atravessando cada
+uma apenas uma vez. Leonhard Euler ao tomar conhecimento do problema por fim tornou a solucioná-lo que indicou que era impossível realizar tal ato. Outro aplicabilidade
+da teoria dos grafos é na engenharia elétrica nos sistemas de distribuição, é possível calcular a corrente em cada nó utilizando matrizes de tensão, também é utilizado
+para prever o comportamento da rede elétrica e tomar medidas para corrigir sobrecorrentes e subtensões.
