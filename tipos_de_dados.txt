@@ -1,0 +1,7 @@
+Caculadora: Inteiro
+Microondas: Inteiro
+Regua: Inteiro
+
+Senha de usuário: String
+Nome de usuário: String
+Nivel de jogador: Inteiro
