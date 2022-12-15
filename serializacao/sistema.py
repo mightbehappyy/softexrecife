@@ -8,9 +8,12 @@ class Sistema():
         print(f"Inicializando {self.nome} {self.arquitetura} produzido pela {self.dono} ")
 
 sistema1 = Sistema("Windows", "64 bits", "Microsoft")
-pickle_out = open("sistema", "wb")   # comentar o pickle_in antes de executar esse codigo
+pickle_out = open("sistema", "wb")   # COMENTAR O PICKLE_IN ANTES DE EXECUTAR ESSE CODIGO
 pickle.dump(sistema1, pickle_out)
 pickle_out.close()
 
-pickle_in = open("sistema.txt", "rb") # comentar o pickle_out antes de descomentar este e rodar o codigo, verifique se o arquivo
-carregar = pickle.load(pickle_in)     # "sistema.txt" existe
+
+
+pickle_in = open("sistema.txt", "rb") # COMENTAR O PICKLE_IN ANTES DE EXECUTAR ESSE CODIGO
+carregar = pickle.load(pickle_in)     # "SISTEMA.TXT" EXISTE
+print(carregar)
