@@ -1,0 +1,2 @@
+A barra de pesquisa do google no código fonte e um objeto com uma série de atributos, como estilo da
+fonte, tamanho, alinhamento e entre outros. Esse aceita os inputs do usuário para realizar a pesquisa. 
