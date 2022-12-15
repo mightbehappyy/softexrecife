@@ -10,7 +10,7 @@ if (operador == "-") {
 if (operador == "*"){
     console.log(num1 * num2);
 }
-if (operador == "/"){
+else{
     console.log(num1 / num2);
     console.log("A sobra foi: ", num1 % num2);
 }
