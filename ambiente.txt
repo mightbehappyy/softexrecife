@@ -1,0 +1,2 @@
+Utilizarei o editor de texto visual studio code para programar em javascript. Baixei extensões para a linguagem,
+criei um arquivo html com a função de printar Olá mundo.
