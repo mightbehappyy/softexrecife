@@ -1,0 +1,9 @@
+O padrão de projeto adapter converte a interface de um objeto para o que 
+outro objeto possa entender-lo
+
+O adaptor "encapsula" um dos objetos para esconder a complexidade da conversão
+que ocorre. Um exemplo seria um objeto que faz uma operação como converte duas unidades
+e outro que faz o mesmo porém com duas unidades diferentes.
+
+Os adapters conseguem também ajudar objetos com interface diferentes a cooperar.
+
