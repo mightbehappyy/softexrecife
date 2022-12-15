@@ -14,6 +14,6 @@ pickle_out.close()
 
 
 
-pickle_in = open("sistema.txt", "rb") # COMENTAR O PICKLE_IN ANTES DE EXECUTAR ESSE CODIGO
+pickle_in = open("sistema.txt", "rb") # COMENTAR O PICKLE_OUT ANTES DE DESCOMENTAR ESTE E RODAR O CODIGO, VERIFIQUE SE O ARQUIVO
 carregar = pickle.load(pickle_in)     # "SISTEMA.TXT" EXISTE
 print(carregar)
