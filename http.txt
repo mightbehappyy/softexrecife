@@ -1,0 +1,13 @@
+O método http opera basicamente desta maneira: Um usuário necessita de algum 
+item que se encontra em outro dispositivo então o usuário faz o RESQUEST para 
+o servidor caso este consiga entender a linguagem utilizada e tenha o item dis
+ponível ele fará uma RESPONSE. No caso do item não estar disponível este irá 
+dizer que não está disponível se não entender a
+linguagem não haverá resposta. Existem vários métodos no HTTP dois deles são o método GET e POST eles
+ordenam qual ação o servidor deverá realizar. O GET é usado quando o usuário deseja obter recursos do servidor enquanto o método POST é 
+usado para quando o usuário deseja enviar dados para o servidor. Estes métodos são os mais utilizados no http porém existem outros como o HEAD, DELETE, PUT E CONNECT. 
+O método HEAD funcona de maneira similar ao GET porém sem conter o corpo da resposta, o DELETE com o próprio nome sugere remove um recurso especificado, o PUT edita as 
+representações de um recurso de destino pela cara da requisição, o CONNECT estabelece um túnel para o servidor identificado pelo recurso de destino.
+
+WSDL é uma linguagem de descrição para serviços web. Uma definição WSDL diz ao cliente 
+como compor um resquest de serviço web e descreve a interface que é fornecida pelo provedor do web service.
