@@ -1,0 +1,34 @@
+post /infoClientes HTTP
+host: www.empresa.com
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: nnn
+
+
+
+<?xml version - "1.0"?>
+<soap:Envelpe xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	<soap:Header/>
+	<soap:Body xmlns:m ="http://www.empresa.com/inforClientes">
+	  <m:ConsultInfos>
+	    <m:infos></m:infos>
+	  </m:ConsultInfos>
+	</soap:body>
+</soap:Envelope>
+
+
+
+
+
+HTTP
+Content-type: application/soap+xml; charset=utf-8
+Content-Length: nnn
+
+<?xml version - "1.0"?>
+<soap:Envelpe xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	<soap:Header/>
+	<soap:Body xmlns:m ="http://www.empresa.com/inforClientes">
+	  <m:EnviarInfo>
+	  <m:Infos>****</m:Infos>
+	  </mEnviarInfo>
+	</soap:body>
+</soap:Envelope>
