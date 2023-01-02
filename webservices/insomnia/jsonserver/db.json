@@ -1,0 +1,40 @@
+{
+    "professor":[{
+        "id": 1,
+        "nome":"Roberto Menezes",
+        "materia": "Matematica",
+        "alunos":[{
+            "id": 2,
+            "nome":"Jorge Castro",
+            "nota": 8.9
+        },
+        {
+            "id":3,
+            "nome": "Carlos Roberto",
+            "nota": 7.9
+
+                } 
+            ]
+        },
+        {
+            "id":2,
+            "nome": "Paulo Roberto",
+            "materia":"Fisica",
+            "alunos":[{
+                "id":5,
+                "nome":"Pedro Rodrigues",
+                "nota": 8
+            },
+            {  
+                "id": 6,
+                "nome": "Maria Luiza",
+                "nota": 8
+                }
+            ]
+        }
+    ]
+}
+
+    
+
+
