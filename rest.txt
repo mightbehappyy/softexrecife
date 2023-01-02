@@ -1,0 +1,21 @@
+Client-Server: O objetivo desta é separar a responsabilidade e arquitetura em dois setores. Desta forma,
+o usuário não precisa dar atenção para tarefas como comunicação com o banco de dados, gerenciamento de cache,
+log, etc. E por outro lado o servidor não precisa se preocupar com tarefas do lado do cliente como interface, experiência do usuário, etc.
+
+Stateless: Todas os requests que um cliente mandar para o servidor devem ser independentes e todos esses requests
+devem ter informações necessárias para entendê-las e processá-las adequadamente. 
+
+Cacheable: Uma forma de diminuir processamento repetitivo por parte do servidor. Quando um cliente faz um resquest
+de um determinado recurso para o server ele processa esse request e guarda por tempo determinado no cache, quando 
+esse request e repetido ele só retorna o que está armazenado sem precisar usar energia de processamento.
+
+Uniform Interface: Esta regra é um acordo entre o cliente e o servidor. Pequenas regras para tornar o componente o
+mais genérico, isso deixa muito mais simples de ser incrementado e reformado.
+
+Layered System: A aplicação é formada por camadas, estas são triviais tanto na alteração quanto na adição e na remoção.
+As regras desta restrição é que o cliente jamais deve chamar de forma direta o servidor da aplicação antes de passar po
+r um mediador. Isso garante que o cliente se preocupe apenas com a comunicação com o mediador enquanto o mediador tem o papel 
+de compartilhar os requests do servers.
+
+Code-on: Esta regra torna possível que o cliente rode o programa sob demanda, ou seja, estenda a parte lógica do server para o cliente, 
+por meio de scripts ou applet. Desta forma diversos clientes podem ter comportamentos específicos mesmo utilizando os mesmo serviços 
