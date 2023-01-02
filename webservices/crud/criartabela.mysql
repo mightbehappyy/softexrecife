@@ -1,0 +1,21 @@
+create table Livraria(
+	nome varchar(55),
+  	autor varchar(55),
+  	ISBN varchar(13),
+    CONSTRAINT Livraria PRIMARY KEY (nome)
+);
+
+INSERT INTO Livraria(nome, autor, ISBN)
+VALUES("Database Systems", "Thomas Connolly , Carolyn Begg", "9780132943260")
+
+select nome from Livraria;
+select autor from Livraria;
+select ISBN from Livraria;
+select * from Livraria;
+
+UPDATE Livraria
+SET nome = "Business Database Systems"
+WHERE AUTOR = "Thomas Connoly, Carolyn Begg";
+
+DELETE from Livraria 
+WHERE ISBN = "9780132943260"
